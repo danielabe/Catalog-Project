@@ -1,0 +1,47 @@
+server:
+  port: 8010
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+message: hello from serie-service from config
+
+
+##Conexion MongoDB 
+spring:
+  data:
+    mongodb:
+      database: seriesDB
+      port: 27017
+##Rabbit
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+##Cola Rabbit
+queue:
+  serie:
+    name: serieQueue
+
+##Actuator
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  app:
+    name: serie-service
+    description: Serie Service created for Movies Project
+    version: 1.0.0

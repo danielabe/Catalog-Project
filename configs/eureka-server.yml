@@ -1,0 +1,24 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false 
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 3000
+
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  app:
+    name: eureka-server
+    description: Eureka Server created for Movies Project
+    version: 1.0.0
