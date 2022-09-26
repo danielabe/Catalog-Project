@@ -8,4 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/Users/danie/Documents/DANI/DH-IdeaProjects/BackendII/C23A-Movies-Project-Final-Intento4/configs
+          uri: https://github.com/danielabe/Catalog-Project
+          searchPaths: configs
