@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Users/danie/Documents/DANI/DH-IdeaProjects/BackendII/C23A-Movies-Project-Final-Intento4/configs

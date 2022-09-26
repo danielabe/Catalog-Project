@@ -1,0 +1,917 @@
+{
+	"id": "c5b1664c-231e-4d52-8e5a-80ab6c9fc50c",
+	"name": "Catalog-Project",
+	"timestamp": "2022-09-26T18:20:53.790Z",
+	"collection_id": "13361525-92bf2c6f-f0f7-4c9a-bc32-b06b5202b873",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 29,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "59befe76-b95c-4ee8-bd9e-ce605c0dc6b0",
+			"name": "actuator movie",
+			"url": "http://localhost:8001/actuator/info",
+			"time": 808,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				808
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9df60b4f-69f7-4ec4-a4fc-95b535cbf15f",
+			"name": "actuator catalog",
+			"url": "http://localhost:8002/actuator/info",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "36f822e0-131e-4dad-b677-e6269c7b366d",
+			"name": "actuator gateway",
+			"url": "http://localhost:8080/actuator/info",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				263
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b42e7a59-3379-4859-8117-6095147d2710",
+			"name": "actuator config",
+			"url": "http://localhost:8888/actuator/health",
+			"time": 462,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				462
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "eae72148-607f-4a21-be0b-bb482c1d7fad",
+			"name": "actuator eureka",
+			"url": "http://localhost:8761/actuator/health",
+			"time": 453,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				453
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "426e4492-e595-4a58-8f19-a1a8f4bd32a3",
+			"name": "actuator serie",
+			"url": "http://localhost:8010/actuator/info",
+			"time": 427,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				427
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1f920041-0bde-4ab7-b53d-1deed4f007ba",
+			"name": "actuator circuitbreakerevents",
+			"url": "http://localhost:8002/actuator/circuitbreakerevents",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bd1b6b2f-a34b-45f2-af26-318018b1d43f",
+			"name": "movies ms",
+			"url": "http://localhost:8001/movies/Accion",
+			"time": 1077,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1077
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "82da4e7d-ccaa-467a-b871-70092d07f4d2",
+			"name": "add movie",
+			"url": "http://localhost:8001/movies/save",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				77
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "427b023b-2d10-4b0d-9b52-cb9f18a34c9c",
+			"name": "catalog ms",
+			"url": "http://localhost:8002/catalog/Accion",
+			"time": 1740,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1740
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f4ea79fa-827f-449f-a0b6-859492b420d9",
+			"name": "catalog ms with errors",
+			"url": "http://localhost:8002/catalog/witherror/Accion?movieErrors=false&seriesErrors=false",
+			"time": 270,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1cc9d1fe-91f2-4129-bd64-4f0a850dde04",
+			"name": "series ms",
+			"url": "http://localhost:8010/series/Accion",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e4c7eb67-f934-4050-ab2b-e2e7ac8e663c",
+			"name": "serie",
+			"url": "http://localhost:8010/series/save",
+			"time": 54,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "845ccd51-fe71-4c87-ab01-e340e0577ac5",
+			"name": "config server eureka",
+			"url": "http://localhost:8888/eureka-server/default",
+			"time": 649,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				649
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17a5009f-a2a6-48eb-8701-47b63fc5f5b1",
+			"name": "config server movies",
+			"url": "http://localhost:8888/movie-service/default",
+			"time": 394,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				394
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6e0e7f83-6249-4e1f-ac14-2439f184a150",
+			"name": "config server catalog",
+			"url": "http://localhost:8888/catalog-service/default",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f648554a-b155-4c2f-97b9-e4a222e53182",
+			"name": "config server gateway",
+			"url": "http://localhost:8888/gateway/default",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "767f34f7-465e-42b0-8faf-887d0df754dd",
+			"name": "config server series",
+			"url": "http://localhost:8888/serie-service/default",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				112
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "31844fbe-577f-400f-8ef6-67d233d7d89a",
+			"name": "message movies ms from config",
+			"url": "http://localhost:8001/message",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c6e25d84-3d0e-4dfe-8ad5-a1ce1d7546b4",
+			"name": "message catalog ms from config",
+			"url": "http://localhost:8002/message",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ad24c8f2-945b-4a81-90b9-db2260f26a95",
+			"name": "message series ms from config",
+			"url": "http://localhost:8010/message",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7b7ffc97-a439-4485-99a0-056ec6e4f338",
+			"name": "gateway movies",
+			"url": "http://localhost:8080/movies/Terror",
+			"time": 558,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				558
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ac4305cb-1403-4dee-81e6-488f04010059",
+			"name": "add movie",
+			"url": "http://localhost:8080/movies/save",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5ee685fe-990b-4f7b-a236-f27a5afe082c",
+			"name": "gateway catalog",
+			"url": "http://localhost:8080/catalog/Accion",
+			"time": 188,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "64f1cc63-6dd9-4d18-b62f-c3ef9f467707",
+			"name": "gateway catalog from catalogDB",
+			"url": "http://localhost:8080/catalog/fromcatalog/Accion",
+			"time": 417,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				417
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "94d823d1-c7b8-4f5e-95fd-41b03a5dab66",
+			"name": "gateway series",
+			"url": "http://localhost:8080/series/Accion",
+			"time": 217,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cc668327-0dbc-4032-a5eb-946a6e72983a",
+			"name": "add serie",
+			"url": "http://localhost:8080/series/save",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a55922f8-899b-461d-a1a7-d0510dd2f8e8",
+			"name": "gateway catalog witherrors",
+			"url": "http://localhost:8080/catalog/witherror/Accion?movieErrors=false&seriesErrors=false",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "68352310-9c36-4704-afa3-75718318358e",
+			"name": "eureka",
+			"url": "http://localhost:8761/",
+			"time": 1312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1312
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 10574,
+	"collection": {
+		"requests": [
+			{
+				"id": "59befe76-b95c-4ee8-bd9e-ce605c0dc6b0",
+				"method": "GET"
+			},
+			{
+				"id": "9df60b4f-69f7-4ec4-a4fc-95b535cbf15f",
+				"method": "GET"
+			},
+			{
+				"id": "36f822e0-131e-4dad-b677-e6269c7b366d",
+				"method": "GET"
+			},
+			{
+				"id": "b42e7a59-3379-4859-8117-6095147d2710",
+				"method": "GET"
+			},
+			{
+				"id": "eae72148-607f-4a21-be0b-bb482c1d7fad",
+				"method": "GET"
+			},
+			{
+				"id": "426e4492-e595-4a58-8f19-a1a8f4bd32a3",
+				"method": "GET"
+			},
+			{
+				"id": "1f920041-0bde-4ab7-b53d-1deed4f007ba",
+				"method": "GET"
+			},
+			{
+				"id": "bd1b6b2f-a34b-45f2-af26-318018b1d43f",
+				"method": "GET"
+			},
+			{
+				"id": "82da4e7d-ccaa-467a-b871-70092d07f4d2",
+				"method": "POST"
+			},
+			{
+				"id": "427b023b-2d10-4b0d-9b52-cb9f18a34c9c",
+				"method": "GET"
+			},
+			{
+				"id": "f4ea79fa-827f-449f-a0b6-859492b420d9",
+				"method": "GET"
+			},
+			{
+				"id": "1cc9d1fe-91f2-4129-bd64-4f0a850dde04",
+				"method": "GET"
+			},
+			{
+				"id": "e4c7eb67-f934-4050-ab2b-e2e7ac8e663c",
+				"method": "POST"
+			},
+			{
+				"id": "845ccd51-fe71-4c87-ab01-e340e0577ac5",
+				"method": "GET"
+			},
+			{
+				"id": "17a5009f-a2a6-48eb-8701-47b63fc5f5b1",
+				"method": "GET"
+			},
+			{
+				"id": "6e0e7f83-6249-4e1f-ac14-2439f184a150",
+				"method": "GET"
+			},
+			{
+				"id": "f648554a-b155-4c2f-97b9-e4a222e53182",
+				"method": "GET"
+			},
+			{
+				"id": "767f34f7-465e-42b0-8faf-887d0df754dd",
+				"method": "GET"
+			},
+			{
+				"id": "31844fbe-577f-400f-8ef6-67d233d7d89a",
+				"method": "GET"
+			},
+			{
+				"id": "c6e25d84-3d0e-4dfe-8ad5-a1ce1d7546b4",
+				"method": "GET"
+			},
+			{
+				"id": "ad24c8f2-945b-4a81-90b9-db2260f26a95",
+				"method": "GET"
+			},
+			{
+				"id": "7b7ffc97-a439-4485-99a0-056ec6e4f338",
+				"method": "GET"
+			},
+			{
+				"id": "ac4305cb-1403-4dee-81e6-488f04010059",
+				"method": "POST"
+			},
+			{
+				"id": "5ee685fe-990b-4f7b-a236-f27a5afe082c",
+				"method": "GET"
+			},
+			{
+				"id": "64f1cc63-6dd9-4d18-b62f-c3ef9f467707",
+				"method": "GET"
+			},
+			{
+				"id": "94d823d1-c7b8-4f5e-95fd-41b03a5dab66",
+				"method": "GET"
+			},
+			{
+				"id": "cc668327-0dbc-4032-a5eb-946a6e72983a",
+				"method": "POST"
+			},
+			{
+				"id": "a55922f8-899b-461d-a1a7-d0510dd2f8e8",
+				"method": "GET"
+			},
+			{
+				"id": "68352310-9c36-4704-afa3-75718318358e",
+				"method": "GET"
+			}
+		]
+	}
+}
