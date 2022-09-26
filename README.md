@@ -75,6 +75,9 @@ Add the following modules to the project structure:<br />
 
 :cherry_blossom: serie-service
 
+## MySQL Database:
+Don't forget to update your password in movie-service.yml file in folder configs.
+
 ## Run :rocket:
 Run the main classes in the following order:<br />
 <br />
